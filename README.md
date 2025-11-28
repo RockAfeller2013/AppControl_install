@@ -10,3 +10,8 @@
 
 - Set admin/Password123456
 - Add Licenses
+  - Go to https://support.broadcom.com/group/ecx/products
+  - My Entitelements
+  - Find Carbon Black App Control,
+  - Download the License key
+  - Copy and Paste the File Reputation License Key.
