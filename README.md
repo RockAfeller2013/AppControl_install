@@ -16,3 +16,4 @@
   - Download the License key
   - Copy and Paste the File Reputation License Key.
 - Upload Rules, and Agents, *You need to upzio first
+- Go to Polices and download the hostpkg https://192.168.1.26/host-groups.php?tab=policies&menu
