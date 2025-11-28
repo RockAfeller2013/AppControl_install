@@ -7,3 +7,5 @@
   - Location - '/Volumes/PROXMOX_NFS/Carbon Black App Control'
 - Install Preq
 - net use Z: \\192.168.1.146\PROXMOX_NFS "" /user:guest /persistent:yes
+
+- Set Password123456
