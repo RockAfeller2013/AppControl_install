@@ -15,5 +15,5 @@
   - Find Carbon Black App Control,
   - Download the License key
   - Copy and Paste the File Reputation License Key.
-- Upload Rules, and Agents, *You need to upzio first
+- Upload Rules, and Agents, *You need to upzio first and verify it here - https://192.168.1.26/InstallerVersions.php
 - Go to Polices and download the hostpkg https://192.168.1.26/host-groups.php?tab=policies&menu
