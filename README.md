@@ -8,5 +8,5 @@
 - Install Preq
 - net use Z: \\192.168.1.146\PROXMOX_NFS "" /user:guest /persistent:yes
 
-- Set Password123456
+- Set admin/Password123456
 - Add Licenses
