@@ -15,3 +15,4 @@
   - Find Carbon Black App Control,
   - Download the License key
   - Copy and Paste the File Reputation License Key.
+- Upload Rules, and Agents, *You need to upzio first
