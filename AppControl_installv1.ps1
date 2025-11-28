@@ -1,4 +1,5 @@
 # Set Execution Policy, enable TLS 1.2, and install Chocolatey
+# Set-ExecutionPolicy Bypass -Scope Process -Force; irm https://raw.githubusercontent.com/RockAfeller2013/AppControl_install/main/AppControl_installv1.ps1 | iex
 Set-ExecutionPolicy Bypass -Scope Process -Force
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -6,6 +7,8 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 # Configure Chocolatey and install software
 choco feature enable -n allowGlobalConfirmation
 choco install vscode -y
+choco install qemu-guest-agent -y
+
 
 # Set Execution Policy for current process
 Set-ExecutionPolicy Bypass -Scope Process
